@@ -118,8 +118,13 @@
               "devServerTarget": "retailer:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "retailer"
 }
